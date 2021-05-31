@@ -1,5 +1,4 @@
 #pickle 프로그램상에서 사용하는 것을 파일 형태로 저장하는 것
-'''
 import pickle
 # profile_file = open('profile.pickle', 'wb')#쓰기목적 + 바이너리 : 피클을 쓰기 위해서
 # profil = {'1':'a', '2':'b', '3':['c','d','e']}
@@ -35,11 +34,10 @@ for bogo in range(1, 51):
         bogoseo.write('\n부서 : ')
         bogoseo.write('\n이름 : ')
         bogoseo.write('\n업무 요약 : ') 
-'''
+
 
 
 #클래스 : 파이선 코딩에서 중요함
-'''
 name = '마린'
 hp = 40
 damage = 5
@@ -57,7 +55,7 @@ def attack(name, lacation, damage):
 
 attack(name, '1시', damage)
 attack(t_name, '1시', t_damage)
-'''
+
 
 
 class Unit:

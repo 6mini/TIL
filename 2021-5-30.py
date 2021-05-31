@@ -1,3 +1,4 @@
+
 #가변인자
 def profile(name, age, *language):
     print(f'이름 : {name}\t나이 : {age}', end=' ') # 엔드 띄어쓰기 하나 넣어주면 줄바꿈없이 출력됨
@@ -15,6 +16,10 @@ def check(sol):
     global gun # 전역공간에 있는 gun을 사용하겠다. 가급적 사용하지 않는게 좋음
     gun = gun - sol
     print(f'남은 총 : {gun}')
+# def check(sol):
+#     global gun # 전역공간에 있는 gun을 사용하겠다. 가급적 사용하지 않는게 좋음
+#     gun = gun - sol
+#     print(f'남은 총 : {gun}')
 
 def check_ret(gun, sol):
     gun = gun - sol
@@ -100,7 +105,6 @@ print(score_file.readline(), end='')
 print(score_file.readline(), end='')
 print(score_file.readline())
 score_file.close()
-
 
 score_file = open('score.txt', 'r', encoding='utf8') #읽기
 while True:

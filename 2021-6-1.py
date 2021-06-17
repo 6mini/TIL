@@ -1,3 +1,4 @@
+'''
 #클래스 : 파이선 코딩에서 중요함
 name = '마린'
 hp = 40
@@ -18,7 +19,7 @@ attack(name, '1시', damage)
 attack(t_name, '1시', t_damage)
 
 
-'''
+
 marine1 = Unit('마린', 40, 5) #유닛의 인스턴스 객체
 marine2 = Unit('마린', 40, 5) #인자를 다 넣지 않으면 작동이 안댐
 tank = Unit('탱크', 150, 35)
@@ -84,7 +85,7 @@ bc = FlyableAttackUnit('배틀크루저', 500, 25, 3)
 
 #메소드 오버라이딩
 vul.move('11시')
-bc.fly(bc.name, '11시')
+# bc.fly(bc.name, '11시')
 bc.move('9시')
 
 

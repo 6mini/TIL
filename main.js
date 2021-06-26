@@ -15,8 +15,8 @@ var app = http.createServer(function (request, response) {
       topic.home(request, response);
     } else { //상세보기
       topic.page(request, response);
-    }
-  } else if (pathname === '/create') {
+    } 
+  } else if (pathname === '/create') { //생성
     topic.create(request, response);
   } else if (pathname === '/create_process') {
     topic.create_process(request, response);

@@ -4,9 +4,11 @@ body {
   }
   
   .file-upload {
-    background-color: whitesmoke;
+    background-color: gainsboro;
     margin: 0 auto;
     padding: 20px;
+    width: 70%;
+    height: 70%;
   }
   
   .file-upload-btn {
@@ -53,7 +55,6 @@ body {
   }
   
   .image-upload-wrap {
-    margin-top: 20px;
     border: 1.5px dashed gray;
     position: relative;
   }
@@ -81,8 +82,8 @@ body {
   }
   
   .file-upload-image {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 300px;
+    max-width: 300px;
     margin: auto;
     padding: 20px;
   }
@@ -112,4 +113,124 @@ body {
   .remove-image:active {
     border: 0;
     transition: all .2s ease;
+  }
+
+  .sexy_feminine-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
+  }
+  .sexy_feminine-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(117, 204, 84, 1);
+  }
+  .deer-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
+  }
+  .deer-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(117, 204, 84, 1);
+  }
+  .dog-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(27, 175, 234, 0.2);
+  }
+  .dog-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(27, 175, 234, 1);
+  }
+  .cat-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(251, 176, 59, 0.2);
+  }
+  .cat-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(251, 176, 59, 1);
+  }
+  .bear-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(195, 140, 102, 0.2);
+  }
+  .bear-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(195, 140, 102, 1);
+  }
+  .fox-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(49, 132, 155, 0.2);
+  }
+  .fox-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(49, 132, 155, 1);
+  }
+  .rabbit-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(235, 166, 190, 0.2);
+  }
+  .rabbit-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(235, 166, 190, 1);
   }

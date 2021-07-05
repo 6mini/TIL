@@ -20,31 +20,37 @@
     <div id="cont" class="container mx-auto py-3 px-3 my-3">
         <section class="title">
             <h1 class="title">인공지능 패션 분석기</h1>
-            <h2 class="subtitle">나의 패션은 어떤 룩으로 분류할 수 있을까?</h2>
+            <h6 class="subtitle mb-3">나의 패션은 어떤 룩으로 분류할 수 있을까?</h6>
         </section>
         <section class="container upload">
             <div class="container file-upload">
-        
             <div class="container image-upload-wrap"> 
                 <input class="container file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
                 <div class="drag-text">
-                    <div>사진을 올려놓거나</div>
-                    <div>눌러서 업로드하세요.</div>
+                    <img src="upload.png" alt="" style="width: 10%;" class="my-3">
+                    <div class="mb-1">옷 사진을 올려놓거나</div>
+                    <div class="mb-4">눌러서 업로드하세요!</div>
                 </div>
             </div>
             <div class="file-upload-content">
                 <img class="file-upload-image" id="FasImg" src="#" alt="your image" />
+                <div id="loading" class="animated bounce">
+                    <div class="spinner-border" role="status">
+                        <span class="sr-only"></span>
+                    </div>
+                    <p class="text-center">AI가 당신의 패션을 분석중입니다.</p>
+                </div>
+                <p class="result-message"></p>
+                <div id="label-container" class="d-flex flex-column justify-content-around"></div>
                 <div class="image-title-wrap">
                 <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
                 </div>
             </div>
             </div>
             <div id="webcam-container"></div>
-            <div id="label-container"></div>
+            
         </section>
         <section class="button">
-            <button type="button" onclick="init()">Start</button>
-            <button type="button" onclick="predict()">예측</button>
         </section>
     </div>
 

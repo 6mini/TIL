@@ -74,32 +74,32 @@ async function predict() {
     switch (prediction[0].className) {
       case "sexy_feminine":
           resultTitle = "섹시/페미닌룩"
-          resultExplain = "다정다감하고 귀여운 당신은 모든 사람들에게 즐거움을 주는 호감형이다! 친절하고 활발한 성격으로 어디에서도 인기폭발이며 애교와 웃음이 많아 연인에게 특히나 사랑스럽다. 당신은 애인바라기로 애인의 관심이 부족하면 시무룩해지고 외로움을 타는 모습이 마치 강아지와 똑 닮았다!"
+          resultExplain = "여성스러움을 한껏 살린 룩을 입은 당신! 굴곡진 신체를 따라 자연스럽게 흘러내리는 선으로 아름다움을 표현했군요. 여성스러우면서 우아한 분위기를 풍기는 것이 특징이랍니다."
           resultCeleb = "강아지상 연예인: 강다니엘, 백현(엑소), 박보검, 송중기"
           break;
       case "simple_casual":
           resultTitle = "심플/캐쥬얼룩"
-          resultExplain = "무뚝뚝한 당신의 첫인상은 차가워 보이지만 묘한 매력을 풍겨 언제나 인기가 넘친다. 자존심이 세계 1등과 맞먹지만 관심 받는 것을 좋아하고 연인에게는 은근히 애교쟁이다. 시크한 츤데레로 연인에게 끊임없이 설렘을 안겨주는 당신은 고양이와 닮았다!"
+          resultExplain = "격식을 차리지 않은 노멀한 룩을 입은 당신! 간편한 스타일이나 기본 의류를 이용해 코디를 완성했군요. 가벼우면서 편하게 입었지만 스타일은 놓치지 않는게 특징이랍니다."
           resultCeleb = "고양이상 연예인: 황민현(뉴이스트), 시우민(엑소), 강동원, 이종석, 이준기"
           break;
       case "street_hiphop":
           resultTitle = "스트릿/힙합룩"
-          resultExplain = "천진난만하고 귀여운 당신은 주변 사람들에게 기쁨을 주는 행복바이러스다! 호기심이 많아 활발하며 귀엽고 순수한 외모로 연인의 보호본능을 자극한다. 존재 자체가 상큼한 당신은 특별한 애교 없이도 연인에게 너무나도 사랑스럽다!"
+          resultExplain = "자기 개성대로 자유롭게 스트릿 문화에 기반한 룩을 입은 당신! 자주 변하는 유행을 중심으로 다양한 감성과 스타일을 표현했군요. 주변인들에게 힙하다는 소리 좀 듣겠는걸요?"
           resultCeleb = "토끼상 연예인: 정국(방탄소년단), 바비(아이콘), 박지훈(워너원), 수호(엑소)"
           break;
       case "girlish":
           resultTitle = "걸리시룩"
-          resultExplain = "무심한 성격에 첫인상은 나쁜 남자 같지만, 알고 보면 따뜻함이 묻어나는 당신! 시크한 매력에 선뜻 다가가지 못하지만 한번 다가가면 헤어나올 수 없는 터프한 매력을 가진 카리스마 있는 남자다."
+          resultExplain = "소녀 감성의 사랑스러운 룩을 입은 당신! 가벼운 컬러나 아기자기한 패턴을 사용하는 것이 특징입니다. 프레피 룩으로 대표되는 활동적인 아메리칸 캐주얼 스타일입니다."
           resultCeleb = "공룡상 연예인: 윤두준(하이라이트), 이민기, 김우빈, 육성재(비투비), 공유"
           break;
       case "unique_kitchi":
           resultTitle = "유니크/키치룩"
-          resultExplain = "첫 인상은 무서워 보이지만 알고 보면 귀여운 매력의 당신! 꼼꼼하고 섬세한 성격으로 연인을 헌신적으로 챙겨주는 당신은 연인에게 듬직한 존재! 포근한 매력에 듬직함까지 갖춘 최고의 남자다!"
+          resultExplain = "개성을 마음껏 표현할 수 있는 유니크한 키치룩을 입은 당신! 패션을 통해 자기 표현을 하는 모습이 멋져요! 튀고 싶거나 분위기 전환에 좋은 룩이라는게 특징이랍니다."
           resultCeleb = "곰상 연예인: 마동석, 조진웅, 조세호, 안재홍"
           break;
       case "formal_classic":
           resultTitle = "포멀/클래식룩"
-          resultExplain = "첫 인상은 무서워 보이지만 알고 보면 귀여운 매력의 당신! 꼼꼼하고 섬세한 성격으로 연인을 헌신적으로 챙겨주는 당신은 연인에게 듬직한 존재! 포근한 매력에 듬직함까지 갖춘 최고의 남자다!"
+          resultExplain = "깔끔하고 신사적인 룩을 입은 당신! 수트나 블레이저 등으로 포멀하게 스타일을 표현했군요. 유행을 타지 않고 고전적이고 전통적이라는 것이 특징이랍니다."
           resultCeleb = "곰상 연예인: 마동석, 조진웅, 조세호, 안재홍"
           break;
       case "work_military":
@@ -112,7 +112,7 @@ async function predict() {
           resultExplain = ""
           resultCeleb = ""
     }
-    var title = "<div class='" + prediction[0].className + "-animal-title'>" + resultTitle + "</div>"
+    var title = "<div class='result-title'>" + resultTitle + "</div>"
             var explain = "<div class='animal-explain pt-2'>" + resultExplain + "</div>"
             var celeb = "<div class='" + prediction[0].className + "-animal-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
             $('.result-message').html(title + explain + celeb);

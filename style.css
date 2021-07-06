@@ -44,6 +44,7 @@ body {
   }
   
   .file-upload-input {
+    left: 0%;
     position: absolute;
     margin: 0;
     padding: 0;
@@ -119,7 +120,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
     width: 100%;
     background-color: rgba(117, 204, 84, 0.2);
@@ -128,109 +129,131 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
-    background-color: rgba(117, 204, 84, 1);
+    background-color: gray;
   }
-  .deer-box {
+  .simple_casual-box {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
     width: 100%;
     background-color: rgba(117, 204, 84, 0.2);
   }
-  .deer-bar {
+  .simple_casual-bar {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
-    background-color: rgba(117, 204, 84, 1);
+    background-color: gray;
   }
-  .dog-box {
+  .street_hiphop-box {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
     width: 100%;
     background-color: rgba(27, 175, 234, 0.2);
   }
-  .dog-bar {
+  .street_hiphop-bar {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
-    background-color: rgba(27, 175, 234, 1);
+    background-color: gray;
   }
-  .cat-box {
+  .girlish-box {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
     width: 100%;
-    background-color: rgba(251, 176, 59, 0.2);
+    background-color: gray;
   }
-  .cat-bar {
+  .girlish-bar {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
-    background-color: rgba(251, 176, 59, 1);
+    background-color: gray;
   }
-  .bear-box {
+  .unique_kitchi-box {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
     width: 100%;
     background-color: rgba(195, 140, 102, 0.2);
   }
-  .bear-bar {
+  .unique_kitchi-bar {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
-    background-color: rgba(195, 140, 102, 1);
+    background-color: gray;
   }
-  .fox-box {
+  .formal_classic-box {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
     width: 100%;
     background-color: rgba(49, 132, 155, 0.2);
   }
-  .fox-bar {
+  .formal_classic-bar {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
-    background-color: rgba(49, 132, 155, 1);
+    background-color: gray;
   }
-  .rabbit-box {
+  .work_military-box {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
     width: 100%;
     background-color: rgba(235, 166, 190, 0.2);
   }
-  .rabbit-bar {
+  .work_military-bar {
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
+    height: 1.5ream;
     border-radius: 10px;
-    background-color: rgba(235, 166, 190, 1);
+    background-color: gray;
   }
+
+  .percent-text {
+    color: #ffffff;
+  }
+  .animal-label {
+      width: 50%;
+      text-align: left;
+      height: 2rem;
+  }
+  #label-container {
+      width: 80%;
+      margin: 0 auto;
+  }
+  
+
+.bar-container {
+  height: 1.5rem;
+}
+
+.result-title {
+  font-size: 1.5rem;
+}

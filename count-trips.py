@@ -19,4 +19,4 @@ result = dates.countByValue()
 
 # Spark코드가 아닌 일반적인 파이썬 코드
 # CSV로 결과값 저장 
-pd.Series(result, name="trips").to_csv("trips_date.csv")
+pd.Series(result, name="trips").to_csv("trips-date.csv")
